@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+
+    align-items: center;
+    padding: 20px; /* Sayfa kenarlarından boşluk */
+  }
+  
+  .crypto-info-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Üst kısma hizala */
+    margin-right: 20px; /* WalletPage ile arasında boşluk bırak */
+  }
+  
+  .wallet-page-container {
+    width: 300px; /* Cüzdan kutusu genişliği */
+    height: 500px; /* Cüzdan kutusunun yüksekliği */
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%; /* Sayfanın ortasında olacak şekilde konumla */
+    transform: translateY(20%); /* Tam ortalamak için */
+  }
+  
